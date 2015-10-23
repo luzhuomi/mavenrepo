@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.github.luzhuomi</groupId>
+    <artifactId>scalapderiv_2.10</artifactId>
+    <packaging>jar</packaging>
+    <description>scalapderiv</description>
+    <version>0.0.1</version>
+    <name>scalapderiv</name>
+    <organization>
+        <name>com.github.luzhuomi</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.10.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scalaz</groupId>
+            <artifactId>scalaz-core_2.10</artifactId>
+            <version>7.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.luzhuomi</groupId>
+            <artifactId>scalazparsec_2.10</artifactId>
+            <version>0.1.2</version>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>TypesafeRepository</id>
+            <name>Typesafe Repository</name>
+            <url>http://repo.typesafe.com/typesafe/releases/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>MavenRepository</id>
+            <name>Maven Repository</name>
+            <url>http://mvnrepository.com/artifact/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>OSSSonatype</id>
+            <name>OSS Sonatype</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>Kennysgithubrepo</id>
+            <name>Kenny's github repo</name>
+            <url>http://github.com/luzhuomi/mavenrepo/raw/master/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>

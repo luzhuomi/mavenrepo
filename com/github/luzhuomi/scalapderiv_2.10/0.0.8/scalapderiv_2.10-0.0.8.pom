@@ -19,12 +19,12 @@
         <dependency>
             <groupId>org.scalaz</groupId>
             <artifactId>scalaz-core_2.10</artifactId>
-            <version>7.2.4</version>
+            <version>7.2.14</version>
         </dependency>
         <dependency>
             <groupId>com.github.luzhuomi</groupId>
             <artifactId>scalazparsec_2.10</artifactId>
-            <version>0.1.2</version>
+            <version>0.1.4</version>
         </dependency>
     </dependencies>
 </project>

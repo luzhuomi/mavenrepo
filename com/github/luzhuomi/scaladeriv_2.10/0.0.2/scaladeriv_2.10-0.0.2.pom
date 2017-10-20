@@ -2,7 +2,7 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.luzhuomi</groupId>
-    <artifactId>scaladeriv_2.11</artifactId>
+    <artifactId>scaladeriv_2.10</artifactId>
     <packaging>jar</packaging>
     <description>scaladeriv</description>
     <version>0.0.2</version>
@@ -14,16 +14,16 @@
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
-            <version>2.11.8</version>
+            <version>2.10.3</version>
         </dependency>
         <dependency>
             <groupId>org.scalaz</groupId>
-            <artifactId>scalaz-core_2.11</artifactId>
+            <artifactId>scalaz-core_2.10</artifactId>
             <version>7.2.14</version>
         </dependency>
         <dependency>
             <groupId>com.github.luzhuomi</groupId>
-            <artifactId>scalapderiv_2.11</artifactId>
+            <artifactId>scalapderiv_2.10</artifactId>
             <version>0.0.8</version>
         </dependency>
     </dependencies>
